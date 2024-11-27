@@ -2,7 +2,7 @@ from shiny import render
 from shiny.express import input, ui
 import pandas as pd
 import matplotlib.pyplot as plt
-import settings.funciones as fu
+import funciones as fu
 
 f = fu.cargar_anio("2010")
 esol = pd.read_parquet(f)

@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.ConfigParser()
-config.read("../years.ini")
+config.read("./years.ini")
 years = config.sections()
 
 def cargar_anio(year):
