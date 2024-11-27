@@ -2,3 +2,5 @@ shiny
 shinywidgets
 pandas
 matplotlib
+fastparquet
+pyarrow
