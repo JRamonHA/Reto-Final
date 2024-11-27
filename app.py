@@ -8,7 +8,7 @@ f = fu.cargar_anio("2010")
 esol = pd.read_parquet(f)
 nombres = list(esol)
 
-with ui.sidebar(open="closed", bg="#f8f8f8"):  
+with ui.sidebar(bg="#f8f8f8"):  
     ui.input_select("year", "Año", list(fu.years)) 
     ui.input_select("columna", "Variable", nombres)
     ui.input_checkbox("maximos", "Resample max")  
